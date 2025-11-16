@@ -1,0 +1,28 @@
+# Ignore virtual env
+.venv/
+
+# Ignore large model files
+*.pth
+*.pt
+*.onnx
+
+# Ignore datasets
+dataset/
+data/
+*.npy
+*.mp4
+*.avi
+*.mkv
+*.mov
+
+# Ignore extracted features and frames
+models/video_model/data/
+models/video_model/data/ffpp_features/
+models/video_model/data/ffpp_frames/
+
+# Ignore results
+results/
+
+# Python cache
+__pycache__/
+*.pyc
